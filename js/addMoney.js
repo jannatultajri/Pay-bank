@@ -23,7 +23,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
       const currentBalance =parseFloat(currentBalanceString);
 
        //add money input with balance
-        const newBalance=currentBalance + addMoneyInput;
+        const newBalance=currentBalance - addMoneyInput;
        
 
         //step-6 || in the UI or dom
